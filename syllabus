@@ -1,0 +1,65 @@
+1. Introduction to the course
+
+2. OpenWRT
+     - Overview
+     - Introduction to git
+     - How to build
+     - How to flash the Router
+     - Package Structure
+     - UCI / LUCI
+     - Network, Firewall
+     - Most of this will be covered in appropriate sections
+
+3. Basics of Networking
+   - TCP / IP Stack
+ Functionality of each layer
+   - Sniffers
+   - NAT
+   - Socket programming
+
+Assignment: Socket programming
+
+4. WiFi
+    - 802.11a/b/g/n/s/ac
+    - MAC layer (DCF)
+    - 802.11 frames, frame format and content
+    - Infrastructure and adhoc
+Hidden Node Problem
+    - Exposed Node problem
+    - State Machine
+    - Security
+    - PowerSave
+    - WMM and UAPSD
+    - Point to Point and Point to multipoint 
+    - TxPower, RSSI, Rate Control Algorithms
+    - Vulnerabilities and Attacks
+    - Aggregation and chainmasks.
+Assignment: Small presentation on any of the above topics
+
+5.  Network Driver
+    - Overview of Networks drivers
+    - compat-wireless / ath9k
+    - Implementation of 802.11 protocol using ath9k + mac80211 + hostapd combination
+    - Tx and Rx Paths
+    - Locking Mechanism
+    - Kernl Timers
+ Tasklets
+    - Interrupt Context, Tasklet Context and Process Context
+    - Tx / Rx Descriptors, DMA
+    - ioctls
+    - proc file system
+    - Other device drivers
+    
+Assignment: Any project involving modifications to the driver. Will be discussed with the students.
+     
+6. OpenWRT again
+
+    - Integration of new packages
+    - Multiple BSSIDDebugging crashes
+    - Bridge vs Router
+    - Access Point Mode
+    - Commands  iw, iwinfo, iwlist
+    - init.d 
+    - inittab
+ 
+7. Project
